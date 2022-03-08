@@ -202,7 +202,7 @@ void DefaultSceneLayer::_CreateScene()
 		// Create some lights for our scene
 		scene->Lights.resize(3);
 		scene->Lights[0].Position = glm::vec3(0.0f, 1.0f, 3.0f);
-		scene->Lights[0].Color = glm::vec3(1.0f, 1.0f, 1.0f);
+		scene->Lights[0].Color = glm::vec3(2.0f, 2.0f, 2.0f);
 		scene->Lights[0].Range = 100.0f;
 
 		// We'll create a mesh that is a simple plane that we can resize later
